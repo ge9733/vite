@@ -9,7 +9,7 @@
         <div class="info_avatar">
           <img :src="songlist?.creator.avatarUrl" alt="" />
           <span>{{ songlist?.creator.nickname }}</span>
-          <span>{{ getDate(songlist?.createTime) }} 创建</span>
+          <span>{{ getDate(songlist?.createTime) }} 创建1</span>
         </div>
         <div class="playbutton">
           <button>播放</button>
