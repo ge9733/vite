@@ -96,7 +96,7 @@ let play = (song: any) => {
   margin-left: 10%;
   margin-top: 20px;
   width: 100%;
-  height: 100%;
+  height: 100%; 
   overflow-x: hidden;
   overflow-y: auto;
 

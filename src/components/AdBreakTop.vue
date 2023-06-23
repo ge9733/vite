@@ -1,21 +1,9 @@
 <template>
-  <div
-    class="ad-break-top"
-    title="点击返回顶部"
-    :style="curPos"
-    @click="breakTop"
-  ></div>
+  <div class="ad-break-top" title="点击返回顶部" :style="curPos" @click="breakTop"></div>
 </template>
 <script lang="ts">
 import { throttle } from '@sorarain/utils'
-import {
-  computed,
-  CSSProperties,
-  defineComponent,
-  onBeforeUnmount,
-  onMounted,
-  ref
-} from 'vue'
+import { computed, CSSProperties, defineComponent, onBeforeUnmount, onMounted, ref } from 'vue'
 export default defineComponent({
   name: 'AdBreakTop',
   props: {
